@@ -1,0 +1,19 @@
+@import './base/common.css';
+
+@import './base/container.css';
+
+@import './layout/page-header.css';
+
+@import './layout/hero.css';
+
+@import './layout/about-us.css';
+
+@import './layout/our-yachts.css';
+
+@import './layout/advantages.css';
+
+@import './layout/rent-a-yacht.css';
+
+@import './layout/reviews.css';
+
+@import './layout/page-footer.css';
