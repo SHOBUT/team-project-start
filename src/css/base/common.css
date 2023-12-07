@@ -13,6 +13,9 @@
     --main-bk-color: #0E1823;
     --second-bk-color : #FBFBFB;
     --third-bk-color : #1B414B;
+
+    --transition-duration-and-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 h1,
@@ -64,4 +67,5 @@ a {
 body {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 13px;
+    background-color: var(--main-bk-color);
   }
