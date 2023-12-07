@@ -1,7 +1,3 @@
-/* удалить */
-body {
-background-color: #0E1823; 
-}
 
 .about-us-section {
 
@@ -9,7 +5,7 @@ background-color: #0E1823;
 
 .about-us-div {
 background-color: var(--second-bk-color);
-padding: 40px 20px;
+padding: 40px 20px 335px 20px;
 border-radius: 24px;
 }
 
