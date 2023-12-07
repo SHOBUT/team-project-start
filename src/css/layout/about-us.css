@@ -60,6 +60,27 @@ margin-bottom: 40px;
 /* ============= Tablet styles ============= */
 
 @media screen and (min-width: 768px) {
+
+    .about-us-div {
+        padding: 50px 136px 244px 32px;
+        justify-content: space-between;
+    }
+
+    .about-us-title {
+        width: 536px;
+        font-size: 48px;
+        
+    }
+
+    .about-us-div-text {
+        width: 389px;
+        font-size: 23px;
+    }
+
+    .about-us-under-text {
+        width: 385px;
+        font-size: 13px;
+    }
     
 }
 
@@ -72,7 +93,23 @@ margin-bottom: 40px;
 
     .about-us-div {
         display: flex;
+        padding: 50px 50px 438px 50px;
+        justify-content: space-between;
     }
+
+    .about-us-title {
+        width: 537px;
+        
+    }
+
+    .about-us-div-text {
+        width: 354px;
+    }
+
+    .about-us-under-text {
+        width: 354px;
+    }
+
     
 }
 
