@@ -1,0 +1,54 @@
+/* удалить */
+body {
+background-color: #0E1823; 
+}
+
+.about-us-section {
+
+}
+
+.about-us-div {
+background-color: var(--second-bk-color);
+padding: 40px 20px;
+border-radius: 24px;
+}
+
+.about-us-title {
+color: var( --accent-text-color);
+
+font-size: 28px;
+font-weight: 500;
+line-height: 1;
+letter-spacing: -0.02em;
+
+margin-bottom: 40px;
+}
+
+.about-us-text {
+color: #1B414B;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+letter-spacing: -0.02em;
+
+margin-bottom: 20px;
+}
+
+.about-us-text-transparent {
+color: #040306;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: -0.02em;
+
+margin-bottom: 40px;
+}
+
+.about-us-img {
+border-radius: 24px;
+
+}
