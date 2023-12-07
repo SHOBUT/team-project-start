@@ -64,4 +64,5 @@ a {
 body {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 13px;
+    background-color: var(--main-bk-color);
   }
