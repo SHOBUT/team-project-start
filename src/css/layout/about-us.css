@@ -1,6 +1,8 @@
 
-.about-us-section {
+/* ============= Mobile styles ============= */
 
+.about-us-section {
+padding-bottom: 80px;
 }
 
 .about-us-div {
@@ -33,7 +35,7 @@ margin-bottom: 20px;
 }
 
 .about-us-under-text {
-color: #040306;
+color: var(--second-text-color_a-four);
 
 font-size: 12px;
 font-style: normal;
@@ -44,7 +46,43 @@ letter-spacing: -0.02em;
 margin-bottom: 40px;
 }
 
-.about-us-img {
-border-radius: 24px;
-
+.about-us-picture {
+    position: relative;
 }
+
+.about-us-img {
+    position: absolute;
+}
+
+/* ============= /Mobile styles ============= */
+
+
+/* ============= Tablet styles ============= */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* ============= /Tablet styles ============= */
+
+
+/* ============= Laptope styles ============= */
+
+@media screen and (min-width: 1280px) {
+
+    .about-us-div {
+        display: flex;
+    }
+    
+}
+
+/* ============= /Laptope styles ============= */
+
+
+/* ============= Desktope styles ============= */
+
+@media screen and (min-width: 1440px) {
+    
+}
+
+/* ============= /Desktope styles ============= */
