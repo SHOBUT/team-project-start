@@ -1,6 +1,5 @@
 /*=============== HERO SECTION ===============*/
 .hero-section {
-    background-color: var(--third-text-color);
     background-image: 
         url(../../img/images-hero/hero-background-mobile.jpg);
     background-repeat: no-repeat;
@@ -160,6 +159,16 @@ screen and (min-width: 1440px) and (min-resolution: 2dppx) {
     display: block;
 
     margin: 0 auto;
+
+    transition:
+    color var(--transition-duration-and-timing-function),
+    background-color var(--transition-duration-and-timing-function);
+}
+
+.hero-section .link:hover,
+.hero-section .link:focus {
+    color: var(--accent-text-color);
+    background-color: var(--second-btn-color);
 }
 
 @media only screen and (min-width: 768px) {
