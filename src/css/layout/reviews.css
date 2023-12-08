@@ -1,7 +1,6 @@
 /* REVIEWS */
 .reviews-content-container {
   max-width: 335px;
-  /* padding-bottom: 40px; */
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
@@ -10,7 +9,7 @@
 }
 
 .reviews-title {
-  color: #fbfbfb;
+  color: var(--main-text-color);
   text-align: center;
   font-size: 28px;
   font-style: normal;
@@ -21,7 +20,7 @@
 }
 
 .reviews-text {
-  color: #fbfbfb;
+  color: var(--main-text-color);
   text-align: center;
   font-size: 12px;
   font-style: normal;
@@ -40,7 +39,7 @@
   align-items: center;
 
   border-radius: 24px;
-  background-color: #fbfbfb;
+  background-color: var(--main-text-color);
 }
 
 .reviews-list-avatar {
@@ -54,7 +53,7 @@
 
 .reviews-list-title {
   margin-bottom: 8px;
-  color: #040306;
+  color: var(--second-text-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -63,7 +62,7 @@
 }
 
 .reviews-list-text {
-  color: rgba(4, 3, 6, 0.4);
+  color: var(--second-text-color_a-four);
   text-align: center;
   font-size: 16px;
   font-style: normal;
