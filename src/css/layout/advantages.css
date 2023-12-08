@@ -1,0 +1,116 @@
+.section-advantages {
+    margin-bottom: 80px;
+    font-family: 'HelveticaNeueCyr';
+}
+
+.container-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: var(--third-bk-color);
+    border-radius: 24px;
+}
+
+.numbered-list {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 32px;
+    flex-wrap: wrap;
+}
+
+.number-item {
+    color: var(--second-bk-color);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1.4px;
+}
+
+.line-item {
+    margin: 18px auto;
+    height: 2px;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+}
+
+.title-item-pr {
+    color: var(--main-text-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: -0.24px;
+    opacity: 0.8;
+}
+
+.advantages-img {
+    width: 100%;
+    border-radius: 18px;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .section-advantages {
+        margin-bottom: 150px;
+    }
+
+    .container-advantages {
+        gap: 32px;
+    }
+
+    .number-item {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -1.6px;
+    }
+
+    .title-item-pr {
+        font-size: 13px;
+        line-height: 115%;
+        letter-spacing: -0.26px;
+    }
+
+    .numbered-list {
+        flex-direction: row;
+        padding: 90px 32px;
+    }
+
+    .numbered-list-item {
+        width: calc((100% - 32px) / 2);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container-advantages {
+        flex-direction: row;
+    }
+
+    .numbered-list {
+        flex-direction: row;
+        padding: 90px 50px;
+    }
+
+    .advantages-img {
+        min-width: 432px;
+    }
+
+    .advantages {
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .advantages-img {
+        min-width: 540px;
+    }
+}
