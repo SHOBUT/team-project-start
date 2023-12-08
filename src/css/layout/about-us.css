@@ -1,0 +1,142 @@
+
+/* ============= Mobile styles ============= */
+
+.about-us-section {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--second-bk-color);
+    border-radius: 28px;
+    margin-bottom: 80px;
+}
+
+.about-us-container {
+   
+    
+    
+}
+
+.about-us-div {
+    padding: 40px 20px 0px 20px;
+}
+
+.about-us-title {
+color: var( --accent-text-color);
+
+font-size: 28px;
+font-weight: 500;
+line-height: 1;
+letter-spacing: -0.02em;
+
+margin-bottom: 40px;
+}
+
+.about-us-text {
+color: #1B414B;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+letter-spacing: -0.02em;
+
+margin-bottom: 20px;
+}
+
+.about-us-under-text {
+color: var(--second-text-color_a-four);
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: -0.02em;
+
+margin-bottom: 40px;
+}
+
+/* ============= /Mobile styles ============= */
+
+
+/* ============= Tablet styles ============= */
+
+@media screen and (min-width: 768px) {
+
+    .about-us-section {
+        max-width: 704px;
+        margin-bottom: 150px;
+    }
+
+
+    .about-us-div {
+        padding: 50px 136px 0px 32px;
+        justify-content: space-between;
+    }
+
+    .about-us-title {
+        width: 536px;
+        font-size: 48px;
+        
+    }
+
+    .about-us-text {
+        width: 389px;
+        font-size: 23px;
+    }
+
+    .about-us-under-text {
+        width: 385px;
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+/* ============= /Tablet styles ============= */
+
+
+/* ============= Laptope styles ============= */
+
+@media screen and (min-width: 1280px) {
+
+    .about-us-section {
+        max-width: 1180px;
+    }
+
+    .about-us-div {
+        display: flex;
+        padding: 50px 50px 0px 50px;
+        justify-content: space-between;
+    }
+
+    .about-us-title {
+        width: 537px;
+        
+    }
+
+    .about-us-text {
+        width: 354px;
+    }
+
+    .about-us-under-text {
+        width: 354px;
+        margin-bottom: 120px;
+    }
+
+    
+}
+
+/* ============= /Laptope styles ============= */
+
+
+/* ============= Desktope styles ============= */
+
+@media screen and (min-width: 1440px) {
+
+    .about-us-section {
+        max-width: 1340px;
+    }
+    
+}
+
+/* ============= /Desktope styles ============= */
