@@ -1,6 +1,5 @@
 /*=============== HERO SECTION ===============*/
 .hero-section {
-    background-color: var(--main-bk-color);
     background-image: 
         url(../../img/images-hero/hero-background-mobile.jpg);
     background-repeat: no-repeat;
