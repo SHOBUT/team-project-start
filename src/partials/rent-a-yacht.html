@@ -1,0 +1,94 @@
+<!-- ===== Rent a yacht ===== -->
+
+<section class="rent-a-yacht">
+  <div class="rent-a-yacht-container container">
+    <!-- === Обгортка для стилізації === -->
+    <div class="wrapper">
+      <!-- === Заголовок секції === -->
+      <h2 class="subtitle">Rent a yacht now</h2>
+      <!-- === Форма замовлення === -->
+      <form class="form">
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            title="Ilona Ratushniak"
+            placeholder="Full Name"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone number"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <textarea
+            class="form-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+      </form>
+      <!-- === Кнопка Send === -->
+      <button class="button-form" type="submit">Send</button>
+    </div>
+    <!-- === Контенте зображення === -->
+    <picture>
+      <source
+        srcset="
+          ./img/images-rent-a-yacht/big-desktop-rent-a-yacht.jpg    1x,
+          ./img/images-rent-a-yacht/big-desktop-rent-a-yacht@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/images-rent-a-yacht/desktop-rent-a-yacht.jpg    1x,
+          ./img/images-rent-a-yacht/desktop-rent-a-yacht@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/images-rent-a-yacht/tablet-rent-a-yacht.jpg    1x,
+          ./img/images-rent-a-yacht/tablet-rent-a-yacht@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/images-rent-a-yacht/mobile-rent-a-yacht.jpg    1x,
+          ./img/images-rent-a-yacht/mobile-rent-a-yacht@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent-a-yacht-img"
+        src="./img/images-rent-a-yacht/mobile-rent-a-yacht.jpg"
+        alt="Rent a yacht"
+      />
+    </picture>
+  </div>
+</section>
