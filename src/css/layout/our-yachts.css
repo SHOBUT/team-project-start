@@ -1,9 +1,11 @@
+/*================== Mobile styles ==============*/
+
 .section-our-yachts {
     padding-bottom: 80px;
 }
 
 .title-our-yachts {
-    max-width: 310px;
+    max-width: 270px;
     color: var(--main-text-color);
     text-align: center;
     font-size: 28px;
@@ -27,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
 }
 
 .item-yachts {
@@ -44,7 +46,6 @@
 .table-yachts-desc {
     width: 100%;
     border-collapse: collapse;
-
 }
 
 .table-row-title {
@@ -68,10 +69,8 @@
     text-transform: uppercase;
 }
 
-
-
 .table-yachts-second-column-lable {
-    width: 93px;
+    width: 86px;
     color: var(--second-text-color);
     font-size: 12px;
     line-height: 1.17;
@@ -91,8 +90,12 @@
 }
 
 .table-yachts-second-column {
-    width: 93px;
+    width: 86px;
     font-weight: 400;
+    color: var(--second-text-color);
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.42px;
 }
 
 .table-yachts-row {
@@ -117,6 +120,10 @@
     width: 138px;
 }
 
+/*================== /Mobile styles ==============*/
+
+/*================== Tablet styles ==============*/
+
 @media screen and (min-width: 768px) {
 
     .section-our-yachts {
@@ -124,7 +131,7 @@
     }
 
     .title-our-yachts {
-        max-width: 619px;
+        max-width: 540px;
         margin: 0 auto 75px;
         font-size: 48px;
         letter-spacing: -0.96px;
@@ -163,19 +170,21 @@
         letter-spacing: -0.36px;
         width: 175px;
     }
-
 }
+
+/*================== /Tablet styles ==============*/
+
+/*================== Desktop 1280px styles ==============*/
 
 @media screen and (min-width: 1280px) {
 
     .title-our-yachts {
-        max-width: 714px;
+        max-width: 616px;
     }
 
     .list-yachts {
         gap: 25px;
     }
-
 
     .third-yacht-card {
         display: block;
@@ -184,8 +193,11 @@
     .item-yachts {
         width: calc((100% - 50px) / 3);
     }
-
 }
+
+/*================== /Desktop 1280px styles ==============*/
+
+/*================== Desktop 1440px styles ==============*/
 
 @media screen and (min-width: 1440px) {
 
@@ -197,11 +209,16 @@
     .item-yachts {
         width: calc((100% - 64px) / 3);
     }
-
 }
+
+/*================== /Desktop 1440px styles ==============*/
+
+/*================== Responsive image for mobile max 374px==============*/
 
 @media screen and (max-width: 374px) {
     .item-yachts-image {
         width: 100%;
     }
 }
+
+/*================== /Responsive image for mobile max 374px ==============*/
