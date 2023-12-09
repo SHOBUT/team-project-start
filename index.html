@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     
     <script type="module" crossorigin src="/team-project-start/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project-start/assets/index-762c5d80.css">
+    <link rel="stylesheet" href="/team-project-start/assets/index-5abd5fc6.css">
   </head>
   <body>
     <header>
@@ -362,7 +362,89 @@
     </div>
 </section>
 
-      
+      <!-- ===== Rent a yacht ===== -->
+
+<section class="rent-a-yacht">
+  <div class="rent-a-yacht-container container">
+    <!-- === Обгортка для стилізації === -->
+    <div class="wrapper">
+      <!-- === Заголовок секції === -->
+      <h2 class="subtitle">Rent a yacht now</h2>
+      <!-- === Форма замовлення === -->
+      <form class="form">
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            title="Ilona Ratushniak"
+            placeholder="Full Name"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone number"
+            required
+          />
+        </label>
+        <label class="form-label">
+          <textarea
+            class="form-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+      </form>
+      <!-- === Кнопка Send === -->
+      <button class="button-form" type="submit">Send</button>
+    </div>
+    <!-- === Контенте зображення === -->
+    <picture>
+      <source
+        srcset="/team-project-start/assets/big-desktop-rent-a-yacht-b34935e6.jpg 1x, /team-project-start/assets/big-desktop-rent-a-yacht@2x-69ec55d7.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/team-project-start/assets/desktop-rent-a-yacht-80907416.jpg 1x, /team-project-start/assets/desktop-rent-a-yacht@2x-92bfe4b9.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/team-project-start/assets/tablet-rent-a-yacht-ae6f00f2.jpg 1x, /team-project-start/assets/tablet-rent-a-yacht@2x-f6063f2f.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/team-project-start/assets/mobile-rent-a-yacht-a346dbc9.jpg 1x, /team-project-start/assets/mobile-rent-a-yacht@2x-dd976e86.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent-a-yacht-img"
+        src="/team-project-start/assets/mobile-rent-a-yacht-a346dbc9.jpg"
+        alt="Rent a yacht"
+      />
+    </picture>
+  </div>
+</section>
+
 
       
 
