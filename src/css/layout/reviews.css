@@ -9,7 +9,7 @@
 }
 
 .reviews-title {
-  width: 100%;
+  max-width: 335px;
   color: var(--main-text-color);
   text-align: center;
   font-size: 28px;
@@ -21,7 +21,7 @@
 }
 
 .reviews-text {
-  width: 100%;
+  max-width: 335px;
   padding-bottom: 40px;
   color: var(--second-btn-color-hover-focus);
   text-align: center;
@@ -85,7 +85,7 @@
   }
 
   .reviews-title {
-    width: 100%;
+    max-width: 704px;
     font-size: 48px;
     line-height: 1em;
     letter-spacing: -0.02em;
@@ -116,7 +116,7 @@
   }
 
   .reviews-list-text {
-    max-width: 288px;
+    max-width: 304px;
   }
 
   .reviews-list-item:nth-child(2) {
