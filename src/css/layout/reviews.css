@@ -22,7 +22,7 @@
 
 .reviews-text {
   max-width: 335px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   color: var(--main-text-color_a-four);
   text-align: center;
   font-size: 12px;
