@@ -1,23 +1,21 @@
 /*=============== HERO SECTION ===============*/
-.hero-section .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-
+.hero-section {
+    padding-top: 260px;
     padding-bottom: 243px;
     min-height: 753px;
 }
 
 @media only screen and (min-width: 768px) {
-    .hero-wrapper {
+    .hero-section {
+        padding-top: 345px;
         padding-bottom: 150px;
         min-height: 895px;
    }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero-wrapper {
+    .hero-section {
+        padding-top: 235px;
         padding-bottom: 180px;
         min-height: 765px;
     }
@@ -32,6 +30,8 @@
     letter-spacing: -0.02em;
     text-align: center;
 
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 24px;
 
     max-width: 335px;
@@ -61,6 +61,8 @@
     line-height: 1.17;
     text-align: center;
 
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 38px;
 
     max-width: 335px;
