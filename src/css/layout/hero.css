@@ -1,14 +1,14 @@
 /*=============== HERO SECTION ===============*/
 .hero-section {
     padding-top: 260px;
-    padding-bottom: 243px;
+    padding-bottom: 203px;
     min-height: 753px;
 }
 
 @media only screen and (min-width: 768px) {
     .hero-section {
         padding-top: 345px;
-        padding-bottom: 150px;
+        padding-bottom: 75px;
         min-height: 895px;
    }
 }
@@ -16,7 +16,7 @@
 @media only screen and (min-width: 1280px) {
     .hero-section {
         padding-top: 235px;
-        padding-bottom: 180px;
+        padding-bottom: 105px;
         min-height: 765px;
     }
 }
