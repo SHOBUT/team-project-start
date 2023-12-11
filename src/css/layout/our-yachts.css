@@ -115,6 +115,14 @@
     display: block;
     margin: 0 auto;
     width: 138px;
+    transition: background-color var(--transition-duration-and-timing-function),
+        border-color var(--transition-duration-and-timing-function);
+}
+
+.link-yacht-rental:focus,
+.link-yacht-rental:hover {
+    background-color: var(--third-bk-color);
+    border-color: transparent;
 }
 
 /*================== /Mobile styles ==============*/
@@ -132,6 +140,10 @@
         margin: 0 auto 75px;
         font-size: 48px;
         letter-spacing: -0.96px;
+    }
+
+    .list-yachts {
+        margin-bottom: 50px;
     }
 
     .second-yacht-card {
