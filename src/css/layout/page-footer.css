@@ -14,6 +14,7 @@
 .footer-nav-social-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     gap: 60px 0;
     margin-bottom: 80px;
@@ -28,7 +29,6 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.03em;
-    flex-basis: 50%;
 }
 
 .footer-nav {
@@ -37,6 +37,8 @@
     gap: 4px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    justify-content: center;
 }
 
 .footer-nav-link {
@@ -67,7 +69,6 @@
     display: flex;
     gap: 8px;
     order: 2;
-    flex-basis: 50%;
     justify-content: flex-end;
 }
 
