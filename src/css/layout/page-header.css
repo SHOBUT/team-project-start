@@ -6,6 +6,7 @@
 /*======= MOB MEDIA: 375px =======*/
 .menu-container {
     overflow: auto;
+    padding-top: 259px;
 }
 
 .background-test{
@@ -70,7 +71,7 @@ header {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	padding: 0 0 40px 0;
+	padding: 259px 0 40px 0;
 	background-color: #0E1823;
 	z-index: 1;
     transform: translateY(-100%);
@@ -103,6 +104,8 @@ header {
 }
 
 .mob__burger--svg {
+    width: 28px;
+    height: 28px;
     transition:
     var(--transition-duration-and-timing-function);
     stroke: var(--main-btn-color);
@@ -126,6 +129,8 @@ header {
 }
 
 .mob__burger-close--svg {
+    width: 28px;
+    height: 28px;
     fill: #055545;
     transition:
     var(--transition-duration-and-timing-function);
@@ -148,8 +153,6 @@ header {
     align-items: center;
     flex-direction: column;
     row-gap: 4px;
-
-    padding-top: 259px;
 }
 
 .mob-nav__menu--item {
@@ -187,7 +190,8 @@ header {
 .mob-menu__soc-icons--list {
     display: flex;
     column-gap: 8px;
-    margin-top: 361px;
+    margin-top: auto;
+    padding-top: 4px;
 }
 
 .mob-menu__soc-icons--link {
@@ -252,6 +256,7 @@ header {
     }
 
     .logo {
+        font-size: 20px;
         letter-spacing: -0.038em;
     }
     
