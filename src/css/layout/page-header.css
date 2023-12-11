@@ -71,7 +71,7 @@ header {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	padding: 0 0 40px 0;
+	padding: 259px 0 40px 0;
 	background-color: #0E1823;
 	z-index: 1;
     transform: translateY(-100%);
@@ -129,6 +129,8 @@ header {
 }
 
 .mob__burger-close--svg {
+    width: 28px;
+    height: 28px;
     fill: #055545;
     transition:
     var(--transition-duration-and-timing-function);
@@ -189,6 +191,7 @@ header {
     display: flex;
     column-gap: 8px;
     margin-top: auto;
+    padding-top: 4px;
 }
 
 .mob-menu__soc-icons--link {
