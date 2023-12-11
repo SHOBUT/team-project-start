@@ -34,8 +34,9 @@
     line-height: 28px;
     letter-spacing: -1.4px;
 }
-
-.line-item {
+.number-item::after {
+    content: "";
+    display: block;
     margin: 18px auto;
     height: 2px;
     border-radius: 18px;
