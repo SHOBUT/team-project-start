@@ -7,7 +7,6 @@
     margin-right: auto;
     background-color: var(--second-bk-color);
     border-radius: 28px;
-    margin-bottom: 80px;
 }
 
 .about-us-container {
@@ -17,7 +16,7 @@
 }
 
 .about-us-div {
-    padding: 40px 20px 0px 20px;
+    padding: 40px 20px 40px 20px;
 }
 
 .about-us-title {
@@ -51,8 +50,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.17;
 letter-spacing: -0.02em;
-
-margin-bottom: 40px;
 }
 
 /* ============= /Mobile styles ============= */
@@ -64,12 +61,11 @@ margin-bottom: 40px;
 
     .about-us-section {
         max-width: 704px;
-        margin-bottom: 150px;
     }
 
 
     .about-us-div {
-        padding: 50px 136px 0px 32px;
+        padding: 50px 136px 50px 32px;
         justify-content: space-between;
     }
 
@@ -87,7 +83,6 @@ margin-bottom: 40px;
     .about-us-under-text {
         width: 385px;
         font-size: 13px;
-        margin-bottom: 50px;
     }
     
 }
@@ -105,7 +100,7 @@ margin-bottom: 40px;
 
     .about-us-div {
         display: flex;
-        padding: 50px 50px 0px 50px;
+        padding: 50px 50px 120px 50px;
         justify-content: space-between;
     }
 
@@ -120,7 +115,6 @@ margin-bottom: 40px;
 
     .about-us-under-text {
         width: 354px;
-        margin-bottom: 120px;
     }
 
     

@@ -1,6 +1,6 @@
 <!-- ===== Rent a yacht ===== -->
 
-<section class="rent-a-yacht" id="rent-a-yacht">
+<section class="rent-a-yacht section" id="rent-a-yacht">
   <div class="rent-a-yacht-container container">
     <!-- === Обгортка для стилізації === -->
     <div class="wrapper">
@@ -14,7 +14,7 @@
             type="text"
             name="user-name"
             id="user-name"
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ ]+"
             title="Ilona Ratushniak"
             placeholder="Full Name"
             required
@@ -42,7 +42,7 @@
             required
           />
         </label>
-        <label class="form-label">
+        <label class="form-label-textarea">
           <textarea
             class="form-textarea"
             name="user-comment"
@@ -50,9 +50,9 @@
             placeholder="Comment"
           ></textarea>
         </label>
+        <!-- === Кнопка Send === -->
+        <button class="button-form" type="submit">Send</button>
       </form>
-      <!-- === Кнопка Send === -->
-      <button class="button-form" type="submit">Send</button>
     </div>
     <!-- === Контенте зображення === -->
     <picture>

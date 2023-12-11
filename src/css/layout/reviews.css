@@ -1,6 +1,6 @@
 /* REVIEWS */
 .reviews-content-container {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 768px) {
   .reviews-content-container {
-    margin-bottom: 150px;
+    margin-bottom: 75px;
   }
 
   .reviews-title {

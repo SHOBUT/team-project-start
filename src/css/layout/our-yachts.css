@@ -48,12 +48,9 @@
     border-collapse: collapse;
 }
 
-.table-row-title {
-    border-bottom: 1px solid rgba(4, 3, 6, 0.10);
-}
-
 .table-yachts-title {
     padding-bottom: 16px;
+    border-bottom: 1px solid rgba(4, 3, 6, 0.10);
 }
 
 .table-yachts-first-row {

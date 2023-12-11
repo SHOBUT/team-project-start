@@ -19,6 +19,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 h1,
 h2,
 h3,
@@ -77,6 +81,11 @@ body {
     background-position: top;
 }
 
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+   }
+
 @media screen and (min-resolution: 192dpi),
 screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 2dppx) {
@@ -91,6 +100,11 @@ screen and (min-resolution: 2dppx) {
         background-image:
             url(../../img/page-background/page-background-tablet.jpg);
     }
+
+    .section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+       }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
