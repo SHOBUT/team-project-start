@@ -7,7 +7,6 @@
     margin-right: auto;
     background-color: var(--second-bk-color);
     border-radius: 28px;
-    margin-bottom: 80px;
 }
 
 .about-us-container {
@@ -62,7 +61,6 @@ letter-spacing: -0.02em;
 
     .about-us-section {
         max-width: 704px;
-        margin-bottom: 150px;
     }
 
 

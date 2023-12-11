@@ -2,7 +2,7 @@
 
 /* === Мобільна верстка === */
 .rent-a-yacht {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .wrapper {
@@ -140,7 +140,7 @@
 
 @media screen and (min-width: 768px) {
     .rent-a-yacht {
-        padding-bottom: 150px;
+        padding-bottom: 75px;
     }
 
     .wrapper {
